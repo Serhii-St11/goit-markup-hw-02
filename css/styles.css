@@ -3,6 +3,7 @@ body {
   background-color: #fff;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 ul,
@@ -64,7 +65,7 @@ a {
 }
 /* hero section */
 .hero-section {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .hero-section-title {
   font-weight: 700;
@@ -75,14 +76,12 @@ a {
 .button {
   background-color: #4d5ae5;
   font-size: 16px;
+  cursor: pointer;
   letter-spacing: 0.04em;
   color: #fff;
 }
 .button:hover {
   background-color: #404bbf;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  color: #fff;
 }
 /* advantages section */
 .advantages-section-title {
@@ -92,7 +91,6 @@ a {
   color: #2e2f42;
 }
 .advantages-section-text {
-  font-weight: 400;
   font-size: 16px;
   color: #434455;
 }
@@ -133,7 +131,6 @@ a {
   color: #2e2f42;
 }
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   color: #434455;
 }
@@ -151,7 +148,6 @@ a {
   color: #f4f4fd;
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   color: #f4f4fd;
 }
