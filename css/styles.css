@@ -48,11 +48,13 @@ a {
   color: #434455;
 }
 
-.address-link:hover 
-.address-link:active {
+.address-link:hover {
   font-weight: 400;
   font-size: 16px;
   color: #404bbf;
+}
+.address-link:active {
+color: #404bbf;
 }
 
 /* hero section */
