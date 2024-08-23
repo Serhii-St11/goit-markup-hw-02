@@ -33,7 +33,7 @@ a {
 .main-navigation:hover {
   color: #404bbf;
 }
-.main-navigation-studio:active {
+.main-navigation:focus {
   color: #404bbf;
 }
 .main-navigation:active {
@@ -56,6 +56,9 @@ a {
   color: #404bbf;
 }
 .address-link:active {
+  color: #404bbf;
+}
+.address-link:focus {
   color: #404bbf;
 }
 
