@@ -21,19 +21,26 @@ a {
   color: #2e2f42;
 }
 
-.main-navigation-studio,
+.main-navigation-studio {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+}
 .main-navigation {
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
 }
 
-.main-navigation-studio:hover,
+.main-navigation-studio:hover {
+  color: #404bbf;
+}
 .main-navigation:hover {
   color: #404bbf;
 }
-
-.main-navigation-studio:active,
+.main-navigation-studio:active {
+  color: #404bbf;
+}
 .main-navigation:active {
   color: #404bbf;
 }
@@ -54,7 +61,7 @@ a {
   color: #404bbf;
 }
 .address-link:active {
-color: #404bbf;
+  color: #404bbf;
 }
 
 /* hero section */
