@@ -20,31 +20,23 @@ a {
   color: #2e2f42;
 }
 
-.main-navigation-studio {
-  font-weight: 500;
-  font-size: 16px;
-  color: #2e2f42;
-}
-.main-navigation-studio:hover {
-  font-weight: 500;
-  font-size: 16px;
-  color: #404bbf;
-}
-.main-navigation-studio:active {
-  font-weight: 500;
-  font-size: 16px;
-  color: #404bbf;
-}
+.main-navigation-studio,
 .main-navigation {
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
 }
+
+.main-navigation-studio:hover,
 .main-navigation:hover {
-  font-weight: 500;
-  font-size: 16px;
   color: #404bbf;
 }
+
+.main-navigation-studio:active,
+.main-navigation:active {
+  color: #404bbf;
+}
+
 .address {
   font-style: normal;
 }
@@ -81,8 +73,10 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
+  color: #fff;
 }
 .button:active {
   background-color: #404bbf;
@@ -132,7 +126,7 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
