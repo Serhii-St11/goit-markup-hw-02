@@ -6,10 +6,12 @@ body {
   color: #434455;
 }
 
-ul,
 a {
-  list-style-type: none;
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .logo-black {
@@ -27,16 +29,10 @@ a {
   color: #2e2f42;
 }
 
-.main-navigation-studio:hover {
-  color: #404bbf;
-}
 .main-navigation:hover {
   color: #404bbf;
 }
 .main-navigation:focus {
-  color: #404bbf;
-}
-.main-navigation:active {
   color: #404bbf;
 }
 
@@ -53,9 +49,6 @@ a {
 .address-link:hover {
   font-weight: 400;
   font-size: 16px;
-  color: #404bbf;
-}
-.address-link:active {
   color: #404bbf;
 }
 .address-link:focus {
@@ -93,9 +86,6 @@ a {
   color: #fff;
 }
 
-.button:active {
-  background-color: #404bbf;
-}
 
 /* advantages section */
 .advantages-section-title {
